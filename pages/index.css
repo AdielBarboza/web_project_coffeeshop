@@ -169,11 +169,16 @@
   margin-left: 80px;
   max-width: 438px;
 }
-.recipes_video {
+.recipes__videos {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 80px;
+}
+.recipes__video-item {
+}
+.recipes__video-caption {
+  margin-top: 24px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  gap: 40px;
-  margin-top: 40px;
-  margin-left: 80px;
 }
