@@ -128,55 +128,47 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation">
+        <section class="reservation">
           <h2 class="reservation__title">Reservar uma mesa</h2>
-          <form class="reservation__form form" method="post">
+
+          <form class="reservation__form form">
             <fieldset class="form__fieldset">
-              <label class="form__label" id="name"> Nome: *</label>
+              <label class="form__label">Nome: *</label>
               <input
                 type="text"
-                name="name"
-                id="name"
                 class="form__input"
-                required
                 placeholder="Nome"
+                required
               />
 
-              <label class="form__label" id="number">
-                Número de convidados: *</label
-              >
+              <label class="form__label">Número de convidados: *</label>
               <input
                 type="number"
-                name="number"
-                id="number"
                 class="form__input"
-                required
+                placeholder="1-8"
                 min="1"
                 max="8"
-                step="1"
-                placeholder="1-8"
-              />
-
-              <label class="form__label" id="date"> Data e hora: *</label>
-              <input
-                type="datetime-local"
-                required
-                name="date"
-                id="date"
-                class="form__input"
                 required
               />
 
-              <label class="form__label" id="email"> Seu e-mail: *</label>
+              <label class="form__label">Data e hora: *</label>
+              <input type="datetime-local" class="form__input" required />
+
+              <label class="form__label">Seu e-mail: *</label>
               <input
                 type="email"
-                name="email"
-                id="email"
                 class="form__input"
-                required
                 placeholder="email@email.com"
+                required
               />
-
+            </fieldset>
+            <button type="submit" class="form__button">
+              Reservar uma mesa
+            </button>
+            <label class="form__label">
+              <input type="checkbox" class="form__checkbox" /> Eu concordo com
+              os termos de uso
+            </label>
           </form>
         </section>
       </main>
