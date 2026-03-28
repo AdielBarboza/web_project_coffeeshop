@@ -130,7 +130,7 @@
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar uma mesa</h2>
-          <form class="reservation__form">
+          <form class="reservation__form form" method="post">
             <fieldset class="form__fieldset">
               <label class="form__label" id="name"> Nome: *</label>
               <input
@@ -176,14 +176,7 @@
                 required
                 placeholder="email@email.com"
               />
-            </fieldset>
-            <button type="submit" class="form__button">
-              Reservar uma mesa
-            </button>
-            <label class="form__label--checkbox">
-              <input type="checkbox" class="form__checkbox" /> Eu concordo com
-              os termos de uso
-            </label>
+
           </form>
         </section>
       </main>
