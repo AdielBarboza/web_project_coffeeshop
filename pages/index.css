@@ -24,7 +24,6 @@
   max-height: 800px;
   height: 100vh;
 
-  padding-top: 30px;
   position: relative;
 }
 .header__image {
@@ -56,7 +55,6 @@
 .nav__links :hover {
   color: #2f80ed;
   transition: color 0.5s ease;
-  text-decoration: 0.5s ease;
 }
 .nav__link {
   text-decoration: none;
@@ -125,7 +123,6 @@
   margin-left: 80px;
   margin-right: 80px;
   margin-bottom: 40px;
-
   font-family: "Inter";
 
   font-style: normal;
@@ -145,6 +142,8 @@
 .recipes {
   background-image: url("/images/background_recipes.svg");
   background-color: #0a2750;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   padding: 80px 0;
@@ -190,4 +189,103 @@
   margin-top: 24px;
   display: flex;
   justify-content: space-between;
+}
+
+.reservation {
+  background-image: url("/images/background_reservation.svg");
+  background-color: #d9e7ff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.reservation__title {
+  font-family: "Inter";
+
+  font-style: normal;
+
+  font-weight: 500;
+
+  font-size: 44px;
+
+  line-height: 52px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+.reservation__form {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  max-width: 385px;
+  width: 100%;
+  margin-bottom: 120px;
+}
+.form__fieldset {
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+.form__label {
+  display: flex;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Inter";
+  margin-bottom: 8px;
+}
+.form__input {
+  width: 100%;
+  max-width: 343px;
+  height: 60px;
+  border: 1px solid #838383;
+  border-radius: 4px;
+  padding: 15px 20px;
+  font-size: 16px;
+  margin-bottom: 32px;
+
+  font-family: "Inter";
+
+  font-style: normal;
+
+  font-weight: normal;
+
+  font-size: 20px;
+
+  line-height: 30px;
+}
+.form__input::placeholder {
+  color: #838383;
+}
+.form__button {
+  width: 100%;
+  height: 60px;
+  border-radius: 4px;
+  background-color: #2f80ed;
+  margin-bottom: 32px;
+
+  font-family: "Inter";
+
+  font-style: normal;
+
+  font-weight: 500;
+
+  font-size: 16px;
+
+  line-height: 20px;
+}
+.form__button:hover {
+  opacity: 70%;
+}
+.form__checkbox {
+  font-size: 14px;
+  line-height: 18px;
+  height: 20px;
+  width: 20px;
+  font-family: "Inter";
+  margin-right: 12px;
 }
