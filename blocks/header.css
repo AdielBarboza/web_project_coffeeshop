@@ -32,20 +32,7 @@
 
   letter-spacing: 1px;
 }
-.span-accent {
-  display: block;
-  font-family: "Noto Serif";
 
-  font-style: italic;
-
-  font-weight: normal;
-
-  font-size: 58px;
-
-  line-height: 72px;
-
-  color: #2f80ed;
-}
 .header__description {
   margin-top: 20px;
   max-width: 683px;
