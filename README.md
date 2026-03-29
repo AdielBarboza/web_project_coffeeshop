@@ -6,4 +6,3 @@ Este projeto foi desenvolvido para praticar HTML, CSS (BEM) Atravez da TripleTen
 
 - HTML5
 - CSS3 (Metodologia BEM)
-- JavaScript
